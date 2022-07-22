@@ -1,0 +1,15 @@
+Package: PLColors
+Title: Public Library Color Palette
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sayeh",
+           family = "Gorjifard",
+           role = c("aut", "cre"),
+           email = "sayeh.gorjifard@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: R color palette inspired by classic book covers found at your local public library
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
