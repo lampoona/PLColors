@@ -42,7 +42,7 @@ pl_palettes <- list(
   road = rbind(c('#584C3E','#D9B760','#F2DCB3','#F2AFB3','#BF3030'),c(1,3,4,2,5))
 )
 
-#4C5273 #BF4E4E #D8B363 #5C7C7B #5898B1
+
 # 2. Palette builder function
 #::::::::::::::::::::::::::::::::::::::::::::::
 
