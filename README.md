@@ -251,7 +251,7 @@ pl_palette("pride",n=4)
 <img src="ReadMeFigures/pride.4.png">
 
 ```r
-pnw_palette("huck",20)
+pl_palette("huck",20)
 ```
 
 <img src="ReadMeFigures/huck.20.png">
