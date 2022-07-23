@@ -2,6 +2,25 @@
 Color palette package in R inspired by classic books found at your local public library 
 
 
+## Usage
+
+
+```r
+library(PLColors)
+
+names(pl_palettes)
+[1] "pride"        "gatsby"       "gatsby2"      "catcher"      "lotr"     
+[6] "tender"       "anna"         "TKAM"         "TKAM2"        "peter"     
+[11] "farewell"     "feast"        "orange"       "lunch"       "solitude"  
+[16] "dalloway"     "huck"         "lotf"         "cuckoo"      "dune"      
+[21] "prince"       "war"          "harry"        "lorax"       "foundations" 
+[26] "boc"          "master"       "alice"        "fountainhead" "pi"        
+[31] "hobbit"       "matilda"      "road"          
+ ```
+
+
+
+
 ## Palettes
 
 
