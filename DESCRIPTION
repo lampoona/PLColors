@@ -1,5 +1,5 @@
 Package: PLColors
-Title: Public Library Color Palette
+Title: Literature inspired R color palette 
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Sayeh",
