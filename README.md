@@ -1,9 +1,17 @@
 # PLColors
 Color palette package in R inspired by classic books found at your local public library 
 
+[Installation](#install-package)  
+[Palettes](#palettes)  
+
+
+## Install Package
+```r
+install.packages("devtools") 
+devtools::install_github("lampoona/PLColors") 
+```
 
 ## Usage
-
 
 ```r
 library(PLColors)
