@@ -103,7 +103,7 @@ ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_pale
 
 <img src="ReadMeFigures/alice.jpg">
 
-  - Alice in Wonderland - by Lewis Carroll
+  - Alice's Adventures in Wonderland - by Lewis Carroll
   
 ***
 
