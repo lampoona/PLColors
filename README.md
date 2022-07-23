@@ -227,6 +227,34 @@ names(pl_palettes)
 
 
 
+## Building Palettes 
+
+Use the `pl_palette()` function to build and view palettes. Inputs are 'name', 'n', and 'type' (continuous or discrete). 'Name' is required. If 'n' is blank, function will assume n is equal to the number of colors in the palette (5-6), but if n > palette length, it will automatically interpolate colors between. If 'type' is missing, the function will assume "discrete" if n < palette length, and "continuous" if n > palette length. 
+
+```r
+pl_palette(name="anna",n=10,type="continuous")
+```
+
+<img src="ReadMeFigures/anna.10.png">
+
+```r
+pl_palette("tender",100)
+```
+
+<img src="ReadMeFigures/tender.100.png">
+
+```r
+pl_palette("pride",n=4)
+```
+
+<img src="ReadMeFigures/pride.4.png">
+
+```r
+pnw_palette("huck",20)
+```
+
+<img src="ReadMeFigures/huck.20.png">
+
 
 
 
