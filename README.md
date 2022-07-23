@@ -77,12 +77,6 @@ Color palette package in R inspired by classic books found at your local public 
   
 ***
 
-<img src="ReadMeFigures/gatsby1.jpg">
-
-  - The Great Gatbsy - F. Scott Fitzgerald
-  
-***
-
 <img src="ReadMeFigures/harry.jpg">
 
   - Harry Potter and the Sorcerer's Stone - J.K. Rowling
