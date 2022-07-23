@@ -3,7 +3,8 @@ Color palette package in R inspired by classic books found at your local public 
 
 [Installation](#install-package)  
 [Palettes](#palettes)  
-[Functions](#building-palettes)  
+[Functions](#building-palettes)
+[Examples](#example-plots)  
 
 
 ## Install Package
@@ -126,7 +127,7 @@ names(pl_palettes)
 
 <img src="ReadMeFigures/huck.jpg">
 
-- Huckleberry Finn - Mark Twain
+- The Adventures of Huckleberry Finn - Mark Twain
 
 ***
 
@@ -256,6 +257,17 @@ pl_palette("huck",20)
 
 <img src="ReadMeFigures/huck.20.png">
 
+## Example Plots
+Palettes can be easily integrated into Base R imaging or `ggplot2`. 
+
+Base R
+```r
+x <- -10:10
+y <- -10:10
+z <- sqrt(outer(x ^ 2, y ^ 2, "+"))
+image(x, y, z, col=pl_palette("foundations",100))
+```
+<center><img src="ReadMeFigures/found.100.png"></center>
 
 
 
