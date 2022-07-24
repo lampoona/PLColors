@@ -11,6 +11,7 @@ Code was structured after [`wesanderson`](https://github.com/karthik/wesanderson
 [Functions](#building-palettes)   
 [Examples](#example-plots)  
 [Palettes](#palettes)  
+[Contact](#contact)  
 
 
 ## Install Package
@@ -297,4 +298,8 @@ ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_pale
 <center><img src="ReadMeFigures/fountainhead.ggplot.png"></center>
 
 
+### Contact
+Reach me at <sayeh.gorjifard@gmail.com> or 
+[@lampoona](https://twitter.com/lampoona) or 
+my [`website`](https://sayehgorjifard.com)
 
