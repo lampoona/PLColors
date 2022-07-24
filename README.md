@@ -1,5 +1,5 @@
-# PLColors (Public Library Colors) <img align="right" src="ReadMeFigures/PLColors_logo.png" width=400>
-PLColors is an R Color palette package inspired by classic books found at the local public library.  
+# PLColors <img align="right" src="ReadMeFigures/PLColors_logo.png" width=400>
+PLColors (Public Library Colors) is an R Color palette package inspired by classic books found at the local public library.  
 
 
 Palettes were extracted from vintage book covers using [Adobe Color](https://color.adobe.com/create/image). Using Adobe Color's accessibility tool, a majority of palettes are rendered to be <b>color-blind safe</b> for beautiful and inclusive data vizualisations. 
