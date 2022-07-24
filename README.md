@@ -301,7 +301,7 @@ ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_pale
 
 ***
 
-### Contact
+## Contact
 Reach me at <sayeh.gorjifard@gmail.com> or 
 [@lampoona](https://twitter.com/lampoona) or 
 my [`website`](https://sayehgorjifard.com)
