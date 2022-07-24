@@ -276,6 +276,8 @@ image(x, y, z, col=pl_palette("foundations",100))
 ```
 <center><img src="ReadMeFigures/found.100.png"></center>
 
+***
+Ggplot
 ```r
 ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
   geom_violin() +
@@ -297,6 +299,7 @@ ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_pale
 ```
 <center><img src="ReadMeFigures/fountainhead.ggplot.png"></center>
 
+***
 
 ### Contact
 Reach me at <sayeh.gorjifard@gmail.com> or 
