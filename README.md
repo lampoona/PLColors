@@ -34,6 +34,9 @@ names(pl_palettes)
 [31] "hobbit"       "matilda"      "road"          
  ```
 
+All Palettes 
+
+<img src="ReadMeFigures/all_palettes.png">
 
 ## Building Palettes 
 
