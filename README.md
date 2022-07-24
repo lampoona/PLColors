@@ -66,40 +66,6 @@ pl_palette("huck",20)
 
 <img src="ReadMeFigures/huck.20.png">
 
-## Example Plots
-Palettes can be easily integrated into Base R imaging or `ggplot2`. 
-
-Base R
-```r
-x <- -10:10
-y <- -10:10
-z <- sqrt(outer(x ^ 2, y ^ 2, "+"))
-image(x, y, z, col=pl_palette("foundations",100))
-```
-<center><img src="ReadMeFigures/found.100.png"></center>
-
-```r
-ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
-  geom_violin() +
-  scale_fill_manual(values=pl_palette("hobbit", 3))
-```
-<center><img src="ReadMeFigures/hobbit.ggplot.png"></center>
-
-```r
-ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
-  geom_point(size=3) +
-  scale_color_gradientn(colors=pl_palette("gatsby"))
-```
-<center><img src="ReadMeFigures/gatsby.ggplot.png"></center>
-
-```r
-set.seed(1)
-df <- data.frame(x = rnorm(2000), y = rnorm(2000))
-ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_palette("fountainhead",n=3)) + theme_minimal()
-```
-<center><img src="ReadMeFigures/fountainhead.ggplot.png"></center>
-
-
 
 ## Palettes
 
@@ -297,7 +263,38 @@ ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_pale
   
 ***
 
+## Example Plots
+Palettes can be easily integrated into Base R imaging or `ggplot2`. 
 
+Base R
+```r
+x <- -10:10
+y <- -10:10
+z <- sqrt(outer(x ^ 2, y ^ 2, "+"))
+image(x, y, z, col=pl_palette("foundations",100))
+```
+<center><img src="ReadMeFigures/found.100.png"></center>
+
+```r
+ggplot(data=iris, aes(x=Species, y=Petal.Length, fill=Species)) +
+  geom_violin() +
+  scale_fill_manual(values=pl_palette("hobbit", 3))
+```
+<center><img src="ReadMeFigures/hobbit.ggplot.png"></center>
+
+```r
+ggplot(data=iris, aes(x=Species, y=Sepal.Width, color=Sepal.Width)) +
+  geom_point(size=3) +
+  scale_color_gradientn(colors=pl_palette("gatsby"))
+```
+<center><img src="ReadMeFigures/gatsby.ggplot.png"></center>
+
+```r
+set.seed(1)
+df <- data.frame(x = rnorm(2000), y = rnorm(2000))
+ggplot(df, aes(x = x, y = y)) + geom_hex() + scale_fill_gradientn(colors=pl_palette("fountainhead",n=3)) + theme_minimal()
+```
+<center><img src="ReadMeFigures/fountainhead.ggplot.png"></center>
 
 
 
