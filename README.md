@@ -36,7 +36,7 @@ names(pl_palettes)
 
 All Palettes 
 
-<img src="ReadMeFigures/all_palettes.png">
+<img src="ReadMeFigures/all_palettes_final.png">
 
 ## Building Palettes 
 
