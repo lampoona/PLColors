@@ -2,7 +2,7 @@
 PLColors (Public Library Colors) is an R Color palette package inspired by classic books found at the local public library.  
 
 
-Palettes were extracted from vintage book covers using [Adobe Color](https://color.adobe.com/create/image). Using Adobe Color's accessibility tool, a majority of palettes are rendered to be <b>color-blind safe</b> for beautiful and inclusive data vizualisations. 
+Palettes were extracted from vintage book covers using [Adobe Color](https://color.adobe.com/create/image). Using Adobe Color's accessibility tool, a majority of palettes are rendered to be <b>color-blind safe</b> for beautiful and inclusive data visualizations. 
 
 
 Code was structured after [`wesanderson`](https://github.com/karthik/wesanderson) and [`PNWColors`](https://github.com/jakelawlor/PNWColors/) packages. The project was inspired by the release of my favorite palette library [`MetBrewer`](https://github.com/BlakeRMills/MetBrewer). The final product was packaged for R thanks to the great tutorial from [`Karl Broman`](https://kbroman.org/pkg_primer/).
