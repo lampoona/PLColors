@@ -67,6 +67,8 @@ pl_palette("huck",20)
 
 <img src="ReadMeFigures/huck.20.png">
 
+
+Indexing into the list of hexcodes to grab user desired colors 
 ```r
 pal <- pl_palette("lorax")
 pal[1:3]
