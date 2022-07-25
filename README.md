@@ -41,7 +41,7 @@ All Palettes
 
 ## Building Palettes 
 
-Use the `pl_palette()` function to build and view palettes. Inputs are 'name', 'n', and 'type' (continuous or discrete). 'Name' is required. If 'n' is blank, function will assume n is equal to the number of colors in the palette (5-6), but if n > palette length, it will automatically interpolate colors between. If 'type' is missing, the function will assume "discrete" if n < palette length, and "continuous" if n > palette length. 
+Use the `pl_palette()` function to build and view palettes. The function `pl_palette()` will return a string list of hex codes that can be fed as color values to any manual color function like scale_color_manual(). Inputs for the function are 'name', 'n', and 'type' (continuous or discrete). 'Name' is required. If 'n' is blank, function will assume n is equal to the number of colors in the palette (5-6), but if n > palette length, it will automatically interpolate colors between. If 'type' is missing, the function will assume "discrete" if n < palette length, and "continuous" if n > palette length. Given that pl_palettes will always return a string list of hexcodes, you can manually index into this list to pick the colors you like.
 
 ```r
 pl_palette(name="anna",n=10,type="continuous")
@@ -66,6 +66,14 @@ pl_palette("huck",20)
 ```
 
 <img src="ReadMeFigures/huck.20.png">
+
+```r
+pal <- pl_palette("lorax")
+pal[1:3]
+[1] "#F2727D" "#80D2F2" "#5EBF64"
+pal[c(1,3,5)]
+[1] "#F2727D" "#5EBF64" "#F2B84B"
+```
 
 
 ## Palettes
