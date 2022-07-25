@@ -1,12 +1,12 @@
 Package: PLColors
 Title: Literature inspired R color palette 
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Sayeh",
            family = "Gorjifard",
            role = c("aut", "cre"),
-           email = "sayeh.gorjifard@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "sayeh.gorjifard@gmail.com")
+Author: Sayeh Gorjifard
 Description: R color palette inspired by classic book covers found at your local public library
 License: CC0
 Encoding: UTF-8
