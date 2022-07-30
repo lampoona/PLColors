@@ -1,4 +1,4 @@
-# PLColors <img align="right" src="ReadMeFigures/PLColors_logo_1.png" width=400>
+# PLColors <img align="right" src="ReadMeFigures/PLColors_logo.png" width=400>
 PLColors (Public Library Colors) is an R Color palette package inspired by classic books found at the local public library.  
 
 
